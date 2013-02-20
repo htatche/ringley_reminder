@@ -1,0 +1,30 @@
+<h3> Welcome to the Ringley Reminder system ! </h3>
+
+<table>
+  <thead>
+    <tr>
+      <td>
+        Date
+      </td>
+      <td>
+        Reminders
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class='check_date'>
+        <%= @check_date %>
+      </td>
+      <td>
+        <% @reminders.each { |reminder| %>
+          <%= reminder[:estate] %> due date
+          <% reminder[:due_dates].each { |due_date| %>
+            <%= due_date %>
+          <% } %>
+          <BR/>
+        <% } %>
+      </td>
+    </tr>
+  </tbody>
+</table>

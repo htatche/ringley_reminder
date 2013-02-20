@@ -1,0 +1,19 @@
+charges_001:
+  estate_code: 0066S
+  period: quarterly
+  due_date: 02-01
+
+charges_002:
+  estate_code: 0066S
+  period: quarterly
+  due_date: 05-03
+
+charges_003:
+  estate_code: 0066S
+  period: quarterly
+  due_date: 08-01
+
+charges_004:
+  estate_code: 0066S
+  period: quarterly
+  due_date: 11-05
