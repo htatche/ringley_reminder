@@ -26,13 +26,10 @@ Date object (1.month, 1.day, (1.week - 1.day), ...)
 = Start
 
 1. Fetch the code
-2. rake db:migrate:all
-3. rails server
-4. Try it on localhost:3000/reminder
-5. You can add as many new estates and due dates you want:
+2. rails server
+3. Try it on localhost:3000/reminder
+4. You can add as many new estates and due dates you want:
   localhost:3000/charges
-
-
 
 To use it in another rails app, just grab the migration files from db/migrate and do:
 
