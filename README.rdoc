@@ -1,6 +1,5 @@
 = ringley_reminder
 
-![Demo](http://i.imgur.com/cnPdl0y.gif)
 Simple reminder system for ringley tech test
 
 = How does it works
